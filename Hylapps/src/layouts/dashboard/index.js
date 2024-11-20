@@ -81,10 +81,10 @@ function Default() {
     setSelectedVessel(vesselData || null);
   }
 
-  const destination = selectedVessel?.AIS?.DESTINATION || "Select a vessel";
-  const speed = selectedVessel?.AIS?.SPEED || "Select a vessel";
-  const eta = selectedVessel?.AIS?.ETA || "Select a vessel";
-  const zone = selectedVessel?.AIS?.ZONE || "Select a vessel";
+  const destination = selectedVessel?.AIS?.DESTINATION || "-";
+  const speed = selectedVessel?.AIS?.SPEED || "-";
+  const eta = selectedVessel?.AIS?.ETA || "-";
+  const zone = selectedVessel?.AIS?.ZONE || "-";
 
 
 //   const events = [
